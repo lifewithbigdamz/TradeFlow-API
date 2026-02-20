@@ -1,5 +1,5 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
-import { Server } from '@stellar/stellar-sdk';
+import Server from '@stellar/stellar-sdk';
 
 @Injectable()
 export class IndexerService implements OnModuleInit {
